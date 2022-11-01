@@ -1,0 +1,47 @@
+Create "package.jason" file
+"npm init -y"
+
+
+For passport we need below dependencies
+
+Encrypt password
+"npm i bcryptjs"
+
+Flash messages
+"npm i connect-flash"
+"npm i express-session"
+
+Template
+"npm i ejs"
+Template layouts
+"npm i express-ejs-layouts"
+
+Framework
+"npm i express"
+
+Server database
+"npm i mongoose"
+
+Authentication
+"npm i passport"
+"npm i passport-local"
+
+Helps to reload server with each change in .js file
+"npm i -D nodemon"
+
+
+to install all dependencies simply add all dependency by 
+"npm i dependency1 dependency2 dependency3 and4 so5 on6"
+
+eg
+"npm i bcryptjs connect-flash express-session ejs express-ejs-layouts express mongoose passport passport-local -D nodemon"
+
+to start server type
+"npm run dev"
+
+
+
+index.js --> information of all pages weblinks-->homepage, dashboard, login, etc..
+users.js --> users registery
+
+
